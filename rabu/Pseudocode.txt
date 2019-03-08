@@ -1,0 +1,58 @@
+1.Newton Second Law
+Declaration
+resultan:integer
+massa:integer
+percepatan:integer
+Begin
+ Input massa<-600
+ Input percepatan<-2
+ READ and SAVE "massa"
+ READ and SAVE "percepatan"
+ resultan = "massa" times "percepatan"
+ calculate "massa" times "percepatan"
+SHOW the computation result
+
+2.Tahun Kabisat
+Declaration
+ tahun:integer
+Begin
+ Read and Save tahun
+if(tahun mod 4 = 0 and tahun mod 100 != 0) 
+ then
+ output ("Tahun Kabisat")
+ else if(tahun mod 4 = 0 and tahun mod  100 = 0 and tahun mod 400 = 0)
+ then
+ output ("Tahun Kabisat")
+ else
+ output ("Bukan Tahun Kabisat")
+endif
+
+3.Laundry Day
+Declaration
+ jumlah:integer
+Begin
+ Read jumlah
+ Save jumlah
+for jumlah <- 1 to 20 do
+ if(jumlah<=20)
+ then
+ Output ("Mesin cuci belum menyala")
+ else (jumlah==20)
+ output ("Mesin cuci akan dinyalakan")
+end if
+
+4.Periksa Kuku
+Declaration
+ nama_siswa:string
+ kuku:string
+Begin
+ read"nama_siswa"
+ save"nama_siswa"
+ read"kuku"
+ save"kuku"
+if (nama_siswa && kuku=panjang)
+ then
+output("guru akan menghukum siswa/siswi")
+else
+output("guru akan memuji siswa/siswi")
+end if
