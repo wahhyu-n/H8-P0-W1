@@ -44,12 +44,15 @@ end if
 4.Periksa Kuku
 Declaration
  nama_siswa:string
+ jumlah_siswa:integer
  kuku:string
+ x:integer
 Begin
  read"nama_siswa"
  save"nama_siswa"
  read"kuku"
  save"kuku"
+ for var x <- 1 to jumlah_siswa do
 if (nama_siswa && kuku=panjang)
  then
 output("guru akan menghukum siswa/siswi")
